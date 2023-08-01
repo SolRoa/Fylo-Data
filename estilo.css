@@ -1,0 +1,98 @@
+body{
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    background-image: url(images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #0B122B;
+}
+.todo{
+    display: flex;
+}
+.contenedor-iz{
+    background-color: #1E2C69;
+    width: 40%;
+    border-top-right-radius: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-end-end-radius: 10px;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.logo{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.contenedor-iconos{
+    display: flex;
+    padding-left: 30px;
+}
+.icono{
+    background-color: #0B122B;
+    border-radius: 5px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+}
+svg{
+    margin: 8px;
+}
+ 
+
+
+
+/*trabajo el contendor derecho */
+.contenedor-dr{
+    background-color: #1E2C69;
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.todo2{
+    margin: 30px;
+}
+.barra{
+    width: 100%;
+    background-color: #151E4A;
+    border-radius: 2em;
+    padding: 2px;
+}
+.progre{
+  text-align: right;
+  width: 70%;
+  padding: 1px;
+  background-image: linear-gradient(to left, rgba(255,77,151,1) 0%, rgba(255,163,153,1) 100%);
+  border-radius: 2em;
+}
+.progre p{
+    margin: 1px;
+    font-weight: 900;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF;
+    opacity: 70%;
+}
+span{
+    font-weight: bold;
+}
+.gbs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.gbs p{
+    margin-top: 5px;
+}
+
+/* preguntas: 
+1) como hacer un globo de dialogo, se puedo con divs o es mejor con una imagen?
+2) para el punto conviene que sea un div con border radius de 50% o un icono? */
